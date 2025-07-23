@@ -118,7 +118,7 @@ body {
 .form-group {
     display: flex;
     flex-direction: column;
-    max-height: 150px;
+    /* max-height: 150px; */
 }
 .form-group-description{
     display: flex;
@@ -703,6 +703,8 @@ body {
     /* background-color: #111827; */
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    align-items: end;
 
 }
 
@@ -710,7 +712,7 @@ body {
     height: 100%;
     width: 4%;
     /* background-color: red; */
-    margin-top: 3%;
+    padding-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -759,4 +761,16 @@ body {
         display: none;
     }
     
+}
+
+/* Form Inputs */
+
+.form-select-to {
+    padding: 0.875rem 0.5rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    background: white;
+    font-family: inherit;
 }
